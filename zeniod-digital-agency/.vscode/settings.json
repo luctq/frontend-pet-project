@@ -1,0 +1,5 @@
+{
+    "editor.tabSize": 2,
+    "liveSassCompile.settings.compileOnWatch": false,
+    "liveSassCompile.settings.watchOnLaunch": true
+}
