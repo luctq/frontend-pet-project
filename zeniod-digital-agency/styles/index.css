@@ -184,6 +184,23 @@ nav .nav__links ul li a:hover {
   -webkit-background-clip: text;
   background-clip: text;
 }
+.hero .hero__title__container .hero__title_decoration {
+  border: 1px solid white;
+  border-radius: 50%;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(100);
+  }
+}
+@keyframes move {}
 .hero .hero__services__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

@@ -55,3 +55,12 @@ responsiveToggle.addEventListener("click", (e) => {
   e.stopPropagation();
   responsiveNavbar.classList.toggle("show");
 })
+
+const ball = document.getElementById("ball");
+ball.animate([{ 
+    transform: "translate(200, 400)"
+  }], {
+    duration: 1000
+    
+  }
+) 
