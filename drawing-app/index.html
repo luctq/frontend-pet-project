@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drawing app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="canvas" width="1200" height="700"></canvas>
+    <div class="toolbox">
+      <button id="increase">-</button>
+      <div id="currentSize">10</div>
+      <button id="decrease">+</button>
+      <input type="color" id="color" />
+      <button id="pencil"><i class="fa fa-pencil"></i></button>
+      <button id="eraser"><i class="fa-solid fa-eraser"></i></button>
+      <button id="reset"><i class="fas fa-undo"></i></button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

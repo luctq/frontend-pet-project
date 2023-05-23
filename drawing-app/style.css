@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    height: 100vh;
+}
+
+canvas {
+    border: 1px solid #111;
+    cursor:url('assets/pencil.png'), auto;
+}
+.toolbox {
+    background-color: rgb(130, 130, 168);
+    width: 1200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.toolbox > * {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    margin: 7px;
+}
+
+.toolbox > button {
+    cursor: pointer;
+}
+
+#currentSize {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
