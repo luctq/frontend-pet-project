@@ -249,7 +249,7 @@ body {
 }
 
 .boy-rotate {
-  -webkit-animation-name: boy-rotate;
+  /* -webkit-animation-name: boy-rotate;
   -webkit-animation-duration: 850ms;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: step-start;
@@ -258,7 +258,7 @@ body {
   -moz-animation-duration: 850ms;
   -moz-animation-iteration-count: 1;
   -moz-animation-timing-function: step-start;
-  -moz-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards; */
 }
 
 @-webkit-keyframes boy-rotate {

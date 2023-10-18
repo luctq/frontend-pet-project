@@ -79,7 +79,7 @@
 }
 
 .girl-rotate {
-  -webkit-animation-name: girl-rotate;
+  /* -webkit-animation-name: girl-rotate;
   -webkit-animation-duration: 850ms;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: step-start;
@@ -88,7 +88,7 @@
   -moz-animation-duration: 850ms;
   -moz-animation-iteration-count: 1;
   -moz-animation-timing-function: step-start;
-  -moz-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards; */
 }
 
 @-webkit-keyframes girl-rotate {
