@@ -4,8 +4,8 @@ var Qixi = function () {
     layer: { width: "100%", height: "100%", top: 0, left: 0 },
     audio: {
       enable: true,
-      playURl: "music/happy.mp3",
-      cycleURL: "music/Beautiful-In-White.mp3",
+      playURl: "public/music/happy.mp3",
+      cycleURL: "public/music/Beautiful-In-White.mp3",
     },
     setTime: {
       walkToThird: 6000,
@@ -388,6 +388,7 @@ var Qixi = function () {
     };
   }
 };
+
 $(function () {
   Qixi();
 });
